@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLUMNS</title>
+    <style>
+        p{
+            text-align: justify;
+            margin: 20p;
+            columns: 3;
+            column-rule: 4px solid #ff4500;
+            column-gap: 50px;
+        }
+        .b1>p{
+            column-fill: auto;
+
+        }
+        .b2>p{
+            column-fill: balance;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>column-fill,columns,column-rule</h1>
+    </center>
+    <hr>
+
+    <section class="container">
+        <div class="b1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deleniti nobis corrupti, consequuntur, error facilis accusantium eaque facere sit quam quia voluptatem maiores alias, mollitia delectus tenetur. Voluptatibus, tenetur praesentium?</p>
+        </div>
+
+        <div class="b2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deleniti nobis corrupti, consequuntur, error facilis accusantium eaque facere sit quam quia voluptatem maiores alias, mollitia delectus tenetur. Voluptatibus, tenetur praesentium?</p>
+        </div>
+    </section>
+    
+</body>
+</html>

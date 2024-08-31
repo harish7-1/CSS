@@ -1,0 +1,25 @@
+.bot{
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+.cssPadding>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: teal;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+.cssBoxModel{
+    background-color: bisque;
+    padding: 20px;
+    border: 5px solid #000;
+    margin: 30px;
+    color: #808080;
+}

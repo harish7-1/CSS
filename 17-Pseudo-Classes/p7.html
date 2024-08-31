@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO-CLASS</title>
+    <style>
+        input:disabled{
+            background-color: antiquewhite;
+            color: black;
+        }
+        input:enabled{
+            background-color: aqua;
+            color: blueviolet;
+
+        }
+        p:empty{
+            border: 2px solid red;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>:enabled :disabled :empty</h1>
+    </center>
+    <hr>
+
+    <form action="">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <hr><hr>
+
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" disabled>
+        <hr><hr>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+        <hr><hr>
+
+    </form>
+
+    <hr>
+
+    <div>
+        <p>sample content</p>
+        <p>sample content</p>
+        <p></p>
+    </div>
+
+    
+</body>
+</html>

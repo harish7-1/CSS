@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-ELEMENT</title>
+        <style>
+            h2::before{
+                content:"Mr.";
+                color: slateblue;
+            }
+            h2::after{
+                content: "welcome";
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>::after and ::before</h1>
+        </center>
+        <hr>
+
+        <div>
+            <h2>john</h2>
+            <h2>mathew</h2>
+            <h2>rocky</h2>
+        </div>
+        
+    </body>
+</html>

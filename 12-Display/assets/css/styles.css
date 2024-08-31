@@ -1,0 +1,42 @@
+/* P1.HTML CODE*/
+section{
+    background-color: rgb(33, 69, 92);
+    padding: 20px;
+}
+div{
+    /*height: 100px;
+    width: 100px;*/
+    margin: 20px;
+    color: #fff;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+.container1{
+    display: block
+    ;
+}
+.container2{
+    display: flex
+    ;
+}
+
+/*P2.HTML CODE*/
+.container3{
+    display: inline-flex;
+
+}
+/*.container4>ul{
+display:inline-flex;
+}*/
+.container4>ul>li{
+    background-color: gray;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.container5{
+
+}
